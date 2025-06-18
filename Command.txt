@@ -17,3 +17,6 @@ sudo rm /var/lib/dpkg/lock-frontend
 sudo dpkg --configure -a
 
 sudo apt-get update
+
+
+sudo apt-get install -y libflint-dev libboost-dev libecm-dev libpari-dev libgmp-dev libntl-dev libmpfr-dev libxml2-dev libjpeg-dev libpng-dev libtiff-dev libavcodec-dev libavformat-dev libswscale-dev python3-dev gfortran gcc g++ make curl
