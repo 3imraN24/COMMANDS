@@ -20,3 +20,22 @@ sudo apt-get update
 
 
 sudo apt-get install -y libflint-dev libboost-dev libecm-dev libpari-dev libgmp-dev libntl-dev libmpfr-dev libxml2-dev libjpeg-dev libpng-dev libtiff-dev libavcodec-dev libavformat-dev libswscale-dev python3-dev gfortran gcc g++ make curl
+
+
+sudo apt-get update
+
+sudo apt-get install -y \
+    libflint-arb-dev libbrial-dev libbrial-groebner-dev libmpc-dev \
+    bzip2 libcdd-dev libcdd-tools cliquer libcliquer-dev \
+    curl libcurl4-openssl-dev ecl libecl-dev gfan libgc-dev \
+    flint-arb libflint-arb-dev libfplll-dev libfreetype-dev \
+    gcc g++ gfortran libgivaro-dev glpk-utils libglpk-dev \
+    xcas libgiac-dev gmp-utils libgmpxx-dev libmpfi-dev \
+    libntl-dev liblinbox-dev liblrcalc-dev libm4ri-dev \
+    libm4rie-dev pari-gp pari-elldata pari-seadata \
+    libpari-dev ninja-build libnauty-dev libplanarity-dev \
+    planarity libppl-dev ppl-dev libprimesieve-dev \
+    python3-dev python3-distutils python3-venv \
+    libreadline-dev libsingular-dev singular \
+    libsqlite3-dev sqlite3 libsuitesparse-dev \
+    libsymmetrica-dev sympow tachyon libzn-poly-dev
